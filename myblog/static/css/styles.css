@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #68afdebb;
 }
 
 .navegador{
@@ -20,14 +21,19 @@ body{
     padding: 10px;
 }
 
-.navegador a h1{
-    flex-direction: row;
+
+.navegador .titulo a {
     display: flex;
     align-items: center;
 }
 
 .navegador a {
     text-decoration: none;
+    color: rgb(104, 35, 35);
+}
+
+.navegador .titulo a img{
+    margin-right: 15px;
 }
 
 .navegador nav{
@@ -59,7 +65,7 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid rgb(18, 62, 113);
     margin: 15px 0;
 }
 
@@ -72,8 +78,6 @@ section{
 }
 
 /* Publicaciones */
-
-/*Index - Publicaciones*/
 article{
     padding: 10px 0;
 }
@@ -95,7 +99,7 @@ article header .about{
     font-size: 18px;
 }
 
-/*Formularios*/
+/*Formulario*/
 form{
     margin: 10px 0;
     display: flex;

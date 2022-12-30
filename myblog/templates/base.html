@@ -12,12 +12,12 @@
 <body>
     <header class="header">
         <div class="navegador">
-            <div>
+            <div class="titulo">
                 <a href="{{ url_for('blog.index') }}">
+                    <img src="{{ url_for('static', filename='img/service.png')}}" alt="servicios" width="40px">
                     <h1>Servicios</h1>
                 </a>
             </div>
-
             <nav>
                 {% if g.user %}
                 <img src="{{ url_for('static', filename='img/usuario.png')}}" alt="usuario" width="40px">
